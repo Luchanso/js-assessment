@@ -14,7 +14,7 @@ exports.flowControlAnswers = {
     if (num % 5 === 0)
         result = 'buzz';
 
-    if (num % 3 === 0 && num % 5 == 0)
+    if (num % 3 === 0 && num % 5 === 0)
         result = 'fizzbuzz';
 
     return result;
